@@ -5,7 +5,7 @@ const SoftwareSchema = new mongoose.Schema({
   description: { type: String, required: true },
   status: { type: String },
   image: { type: String, required: true },
-  price: { type: Number },
+  price: "",
   feature: { type: String, required: true },
 });
 
