@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const HardwareSchema = new mongoose.Schema({
   title: { type: String, required: true },
-  description: { type: String, required: true },
+  description: { type: String },
   status: { type: String },
   image: { type: String, required: true },
   
